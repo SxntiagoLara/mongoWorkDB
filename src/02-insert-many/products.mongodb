@@ -5,54 +5,167 @@ use("pet_store")
 db.products.drop() // elimina los documentos creados en la colleccion anteriormente
 
 db.products.insertMany([
-  {
-    _id: 1,
-    name: "Product 1",
-    price: 100
-  },
-  {
-    _id: 2,
-    name: "Product 2",
-    price: 20
-  },
-  {
-    _id: 3,
-    name: "Product 3",
-    price: 120
-  },
-  {
-    _id: 4,
-    name: "Product 4",
-    price: 120
-  },
-  {
-    _id: 5,
-    name: "Product 5",
-    price: 120
-  },
-  {
-    _id: 6,
-    name: "Product 6",
-    price: 120
-  },
-  {
-    _id: 7,
-    name: "Product 7",
-    price: 120
-  },
-  {
-    _id: 8,
-    name: "Product 8",
-    price: 120
-  },
-  {
-    _id: 9,
-    name: "Product 9",
-    price: 120
-  },
-  {
-    _id: 10,
-    name: "Product 10",
-    price: 120
-  }
+
+    {
+        _id:1,
+     title: "Título 1",
+     price: 10,
+     description: "Descripción del producto 1",
+     categoy: "Electrónica",
+     Image: "https://example.com/image1.jpg"
+    },
+    {
+        _id:2,
+      title: "Título 2",
+      price: 200000,
+      description: "Descripción del producto 2",
+      category: "Ropa",
+      Image: "https://example.com/image2.jpg"
+    },
+    {
+        _id:3,
+      title: "Título 3",
+      price: 300000,
+      description: "Descripción del producto 3",
+      category: "Cocina",
+      Image: "https://example.com/image3.jpg"
+    },
+    {
+        _id:4,
+      title: "Título 4",
+      price: 400000,
+      description: "Descripción del producto 4",
+      category: "Libros",
+      Image: "https://example.com/image4.jpg"
+    },
+    {
+        _id:5,
+      title: "Título 5",
+      price: 500000,
+      description: "Descripción del producto 5",
+      category: "Deportes",
+      Image: "https://example.com/image5.jpg"
+    },
+    {
+        _id:6,
+      title: "Título 6",
+      price: 600000,
+      description: "Descripción del producto 6",
+      category: "Juguetes",
+      Image: "https://example.com/image6.jpg"
+    },
+    {
+        _id:7,
+      title: "Título 7",
+      price: 700000,
+      description: "Descripción del producto 7",
+      category: "Música",
+      Image: "https://example.com/image7.jpg"
+    },
+    {
+        _id:8,
+      title: "Título 8",
+      price: 800000,
+      description: "Descripción del producto 8",
+      category: "Cine",
+      Image: "https://example.com/image8.jpg"
+    },
+    {
+        _id:9,
+      title: "Título 9",
+      price: 900000,
+      description: "Descripción del producto 9",
+      category: "Videojuegos",
+      Image: "https://example.com/image9.jpg"
+    },
+    {
+        _id:10,
+      title: "Título 10",
+      price: 1000000,
+      description: "Descripción del producto 10",
+      category: "Otros",
+      Image: "https://example.com/image10.jpg"
+    },
+    {
+        _id:11,
+      title: "Título 11",
+      price: 1100000,
+      description: "Descripción del producto 11",
+      category: "Electrónica",
+      Image: "https://example.com/image11.jpg"
+    },
+    {
+        _id:12,
+      title: "Título 12",
+      price: 1200000,
+      description: "Descripción del producto 12",
+      category: "Ropa",
+      Image: "https://example.com/image12.jpg"
+    },
+    {
+        _id:13,
+      title: "Título 13",
+      price: 1300000,
+      description: "Descripción del producto 13",
+      category: "Cocina",
+      Image: "https://example.com/image13.jpg"
+    },
+    {
+        _id:14,
+      title: "Título 14",
+      price: 1400000,
+      description: "Descripción del producto 14",
+      category: "Libros",
+      Image: "https://example.com/image14.jpg"
+    },
+    {
+        _id:15,
+        title: "Título 15",
+        price: 1400000,
+        description: "Descripción del producto 15",
+        category: "Cocina",
+        Image: "https://example.com/image15.jpg"
+      },
+      {
+        _id:16,
+        title: "Título 16",
+        price: 1400000,
+        description: "Descripción del producto 16",
+        category: "Música",
+        Image: "https://example.com/image16.jpg"
+      },
+      {
+        _id:17,
+        title: "Título 17",
+        price: 1400000,
+        description: "Descripción del producto 17",
+        category: "Decoración",
+        Image: "https://example.com/image17.jpg"
+      },
+      {
+        _id:18,
+        title: "Título 18",
+        price: 1400000,
+        description: "Descripción del producto 18",
+        category: "Cocina",
+        Image: "https://example.com/image18.jpg"
+      },
+      {
+        _id:19,
+        title: "Título 19",
+        price: 1400000,
+        description: "Descripción del producto 19",
+        category: "Mascotas",
+        Image: "https://example.com/image19.jpg"
+      },
+      {
+        _id:20,
+        title: "Título 20",
+        price: 1400000,
+        description: "Descripción del producto 20",
+        category: "Hogar",
+        Image: "https://example.com/image20.jpg"
+      }
+    
+
 ])

@@ -6,7 +6,7 @@ db.products.updateOne(
   // change => operators
   {
     $set: {
-      name: 'Change name',
+      tittle: 'rascador PRO',
       price: 3000,
     }
   }
